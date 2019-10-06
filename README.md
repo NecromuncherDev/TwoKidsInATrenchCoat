@@ -5,7 +5,7 @@ A funny, slapstick physics based couch co-op game where you and your buddy play 
 
 Comunities:
 
-[ ] [Facebook]()
-[ ] [Instagram]()
-[ ] [Twitter]()
-[ ] [Reddit]()
+- [ ] [Facebook]()
+- [ ] [Instagram]()
+- [ ] [Twitter]()
+- [ ] [Reddit]()
