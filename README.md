@@ -4,6 +4,7 @@ A funny, slapstick physics based couch co-op game where you and your buddy play 
 [GDD over here](https://docs.google.com/document/d/1SS10tzKcvzvfL47UIR8101p9Xp7_w4IcSW9eWDkhUHY/view)
 
 Comunities:
+
 [ ] [Facebook]()
 [ ] [Instagram]()
 [ ] [Twitter]()
