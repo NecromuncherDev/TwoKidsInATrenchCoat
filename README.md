@@ -6,6 +6,6 @@ A funny, slapstick physics based couch co-op game where you and your buddy play 
 Comunities:
 
 - [x] [Facebook](https://www.facebook.com/Two-Kids-In-A-Trench-Coat-Game-109637623777486/)
-- [x] [Instagram]
-- [ ] [Twitter]()
+- [x] Instagram
+- [ ] Twitter
 - [x] [Reddit](https://www.reddit.com/r/TwoKidsInATrenchCoat/)
