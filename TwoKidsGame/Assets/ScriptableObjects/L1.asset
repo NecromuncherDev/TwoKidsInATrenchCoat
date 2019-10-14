@@ -15,3 +15,6 @@ MonoBehaviour:
   floorPrefabName: FloorBasic
   roomDimentions: {x: 1, y: 1, z: 1}
   roomCenter: {x: 0, y: 0, z: 0}
+  cameraPrefabName: CameraBasic
+  cameraStartingPosition: {x: 0, y: 5, z: -10}
+  CameraStartingRotation: {x: 15, y: 0, z: 0}

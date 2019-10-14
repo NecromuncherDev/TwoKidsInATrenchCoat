@@ -45,7 +45,9 @@ public class LevelInstantiator : MonoBehaviour
 
     private void CreateEnvironment()
     {
-        Debug.LogWarning("Not implemented");
+        UnityEngine.Object pPrefab = Resources.Load("Prefabs/" + levelConf.cameraPrefabName);
+        GameObject pNewObject = (GameObject)GameObject.Instantiate(pPrefab, levelConf.cameraStartingPosition, Quaternion.identity);
+        pNewObject.transform.Rotate(levelConf.CameraStartingRotation);
     }
 
     private void SpawnPlayers()

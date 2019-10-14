@@ -10,6 +10,9 @@ public class SpawnManagerSO : ScriptableObject
     #endregion
 
     #region Environment
+    public string cameraPrefabName;
+    public Vector3 cameraStartingPosition;
+    public Vector3 CameraStartingRotation;
     #endregion
 
     #region Player
