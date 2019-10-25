@@ -4,15 +4,15 @@
 public class SpawnManagerSO : ScriptableObject
 {
     #region Floor
-    public string floorPrefabName;
-    public Vector3 roomDimentions;
-    public Vector3 roomCenter;
     #endregion
 
     #region Environment
-    public string cameraPrefabName;
-    public Vector3 cameraStartingPosition;
-    public Vector3 CameraStartingRotation;
+    // Sound conf
+    public string levelMusicTrack;
+
+    // People conf
+    public float peopleSpeed;
+    public float peopleAwareness;
     #endregion
 
     #region Player

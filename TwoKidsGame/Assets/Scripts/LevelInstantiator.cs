@@ -28,26 +28,22 @@ public class LevelInstantiator : MonoBehaviour
         }
         else
         {
-            CreateFloor();
-            CreateEnvironment();
-            SpawnPlayers();
-            PopulateRoom();
         }
     }
 
     // Get and intitialize the floor this level according to the level config
-    private void CreateFloor()
+    private void SetLevelMusic()
     {
-        UnityEngine.Object pPrefab = Resources.Load("Prefabs/" + levelConf.floorPrefabName);
-        GameObject pNewObject = (GameObject)GameObject.Instantiate(pPrefab, levelConf.roomCenter, Quaternion.identity);
-        pNewObject.transform.localScale = levelConf.roomDimentions;
+        //UnityEngine.Object pPrefab = Resources.Load("Prefabs/" + levelConf.levelMusicTrack);
+        //GameObject pNewObject = (GameObject)GameObject.Instantiate(pPrefab, levelConf.roomCenter, Quaternion.identity);
+        //pNewObject.transform.localScale = levelConf.roomDimentions;
     }
 
     private void CreateEnvironment()
     {
-        UnityEngine.Object pPrefab = Resources.Load("Prefabs/" + levelConf.cameraPrefabName);
-        GameObject pNewObject = (GameObject)GameObject.Instantiate(pPrefab, levelConf.cameraStartingPosition, Quaternion.identity);
-        pNewObject.transform.Rotate(levelConf.CameraStartingRotation);
+        //UnityEngine.Object pPrefab = Resources.Load("Prefabs/" + levelConf.cameraPrefabName);
+        //GameObject pNewObject = (GameObject)GameObject.Instantiate(pPrefab, levelConf.cameraStartingPosition, Quaternion.identity);
+        //pNewObject.transform.Rotate(levelConf.CameraStartingRotation);
     }
 
     private void SpawnPlayers()
