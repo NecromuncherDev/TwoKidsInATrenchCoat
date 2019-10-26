@@ -311,7 +311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &295019250
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1035,7 +1035,7 @@ HingeJoint:
   m_ConnectedAnchor: {x: -5.9117156e-12, y: 0.00025137552, z: 2.2737368e-13}
   m_UseSpring: 1
   m_Spring:
-    spring: 65
+    spring: 500
     damper: 0
     targetPosition: 0
   m_UseMotor: 0
@@ -1046,7 +1046,7 @@ HingeJoint:
   m_UseLimits: 1
   m_Limits:
     min: -140
-    max: -10
+    max: 0
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -1121,7 +1121,7 @@ HingeJoint:
   m_ConnectedAnchor: {x: -0.00007002288, y: -0.000036051057, z: -0.0000008720893}
   m_UseSpring: 1
   m_Spring:
-    spring: 300
+    spring: 500
     damper: 0
     targetPosition: 0
   m_UseMotor: 0
@@ -1131,9 +1131,9 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -45
-    max: 90
-    bounciness: 0
+    min: -25
+    max: 85
+    bounciness: 1
     bounceMinVelocity: 0.2
     contactDistance: 0
   m_BreakForce: Infinity
@@ -2507,7 +2507,7 @@ HingeJoint:
   m_ConnectedAnchor: {x: -9.094947e-13, y: 0.0002514363, z: 2.2737368e-12}
   m_UseSpring: 1
   m_Spring:
-    spring: 65
+    spring: 500
     damper: 0
     targetPosition: 0
   m_UseMotor: 0
@@ -2518,7 +2518,7 @@ HingeJoint:
   m_UseLimits: 1
   m_Limits:
     min: -140
-    max: -10
+    max: 0
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -2733,7 +2733,7 @@ HingeJoint:
   m_ConnectedAnchor: {x: 0.00007002287, y: -0.000036051115, z: 0.00000003043213}
   m_UseSpring: 1
   m_Spring:
-    spring: 300
+    spring: 500
     damper: 0
     targetPosition: 0
   m_UseMotor: 0
@@ -2743,9 +2743,9 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -45
-    max: 90
-    bounciness: 0
+    min: -25
+    max: 85
+    bounciness: 1
     bounceMinVelocity: 0.2
     contactDistance: 0
   m_BreakForce: Infinity
