@@ -5,59 +5,37 @@ using UnityEngine;
 
 public class MissionManeger : MonoBehaviour
 {
-    public MissionObject [] missions;
-   
+    public string missionText;
+    public TaskItem[] tasks;
+    int tasksDone;
+    int ActiveMission;
+    public static event Action MissionDone;
 
-    private int currentMissionID;
-    private int currentTaskID;
-
-    private TaskItem anyTask;
-
-    public static event Action missionFinished;
-
-    private void Start()
+    public void active()
     {
-        
-        anyTask.thisTaskFinished += AnyTaskFinished;
-        missionFinished += StartNextMission;
-        currentMissionID = 0;
-       
-
-}
-
-    private void onMissionFinished()
-    {
-        if (missionFinished != null)
+        tasksDone = 0; 
+      
+        foreach (TaskItem task in tasks)
         {
-            missionFinished();
+            task.active = true;
+            task.thisTaskFinished += TaskInMissionDone;
         }
     }
 
-  // when task finished this func is called to check if all tasks in missions have ended 
-    private void AnyTaskFinished()
+    public void TaskInMissionDone ()
     {
-        anyTask.thisTask.finished = true;
-
-        // if we want to add an animation or event when task is finished put it here
-
-        foreach(TaskObject task in missions[currentMissionID].taks)
+        tasksDone++;
+        if(tasksDone >= tasks.Length)
         {
-            if (!task.finished)
+            Debug.Log(missionText);
+            tasksDone = 0;
+            
+            if (MissionDone!=null)
             {
-                break;
-            }
-            else
-            {
-                missionFinished();
+                MissionDone();
             }
         }
-
     }
 
-    private void StartNextMission()
-    {
-        currentMissionID ++;
-        // here we will put the visual effect of starting a new mission, changing the to do list on the side and so forth
-    }
 
 }

@@ -5,23 +5,30 @@ using UnityEngine;
 
 public class TaskItem : MonoBehaviour
 {
-    public TaskObject thisTask;
+    public string taskText;
+
+    public Collider destination;
+
+    public bool active;
 
     public event Action thisTaskFinished;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (thisTask.active = true &&  thisTask.destination == other )
+        if (active && destination == other)
+        {
+            active = false;
+            Debug.Log(taskText);
+            OnThisTaskFinish();
+        }
+    }
+
+    private void OnThisTaskFinish()
+    {
+        if (thisTaskFinished !=null)
         {
             thisTaskFinished();
         }
     }
 
-    private void OnThisTaskFinished()
-    {
-        if (thisTaskFinished != null)
-        {
-            thisTaskFinished();
-        }
-    }
 }
