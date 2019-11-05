@@ -5,6 +5,8 @@ using UnityEngine;
 public class BottomKidMovement : MonoBehaviour
 {
     private Rigidbody rigidbody;
+    [SerializeField]
+    private float rotationMultiplier;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +17,7 @@ public class BottomKidMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * Time.deltaTime);
+        transform.Translate(new Vector3(0, 0, Input.GetAxis("Vertical")) * Time.deltaTime);
+        transform.RotateAroundLocal(transform.up, Input.GetAxis("Horizontal") * Time.deltaTime * rotationMultiplier);
     }
 }
