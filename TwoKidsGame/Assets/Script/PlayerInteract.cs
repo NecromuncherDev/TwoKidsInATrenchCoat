@@ -37,7 +37,8 @@ public class PlayerInteract : PlayerController
         if (Physics.Raycast(ray, out hit))
         {
             Debug.Log("Inteacted with: " + hit.transform.name);
-                
+
+                if (hit.transform.gameObject.GetComponent<ScriptedDialogueBehaviour>() != null)
                 hit.transform.gameObject.GetComponent<ScriptedDialogueBehaviour>().Interacted();
         }
 
