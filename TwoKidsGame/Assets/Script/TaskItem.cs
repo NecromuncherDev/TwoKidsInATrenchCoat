@@ -11,8 +11,6 @@ public class TaskItem : MonoBehaviour
 
     public bool active;
 
-    bool talkTofinish;
-
     public int ID;
 
     public event Action thisTaskFinished;
@@ -31,18 +29,6 @@ public class TaskItem : MonoBehaviour
             OnThisTaskFinish();
         }
     }
-
-    public void Intercacted()
-    {
-        if (active)
-        {
-            UI.MarkTask(ID);
-            active = false;
-            Debug.Log(taskText);
-            OnThisTaskFinish();
-        }
-    }
-
 
     private void OnThisTaskFinish()
     {
