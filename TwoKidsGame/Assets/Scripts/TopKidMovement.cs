@@ -4,25 +4,19 @@ using UnityEngine;
 
 public class TopKidMovement : MonoBehaviour
 {
-    [SerializeField]
-    private float maxTilt = 20f;
+    private Rigidbody rigidbody;
+    private HingeJoint hj;
 
     private void Start()
     {
+        rigidbody = GetComponent<Rigidbody>();
+        hj = GetComponent<HingeJoint>();
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.I) && transform.rotation.x < maxTilt)
-        {
-            transform.RotateAround(transform.right, 1f * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.K) && transform.rotation.x > -maxTilt)
-        {
-            transform.RotateAround(transform.right, -1f * Time.deltaTime);
-        }
-
+        //Debug.Log(rigidbody.GetPointVelocity(Vector3.zero));
     }
 
 }
