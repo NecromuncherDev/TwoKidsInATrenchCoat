@@ -611,6 +611,10 @@ MonoBehaviour:
   taskText: 'M 1 T 1 '
   destination: {fileID: 1567697043}
   active: 0
+<<<<<<< HEAD
+=======
+  Finished: 0
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   ID: 0
   UI: {fileID: 828929716}
 --- !u!54 &815086849
@@ -641,6 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 716a4bebbc5418c4bb1cadba7a65bc90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   script:
   - speaker: {fileID: 815086847}
     delay: 0
@@ -654,6 +659,11 @@ MonoBehaviour:
     delay: 0
     line: happy to hear
     speechBubbleType: 0
+=======
+  scriptBefore: []
+  scriptWhile: []
+  scriptAfter: []
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   doRestartAtEnd: 1
   bubbleTimeToLive: 3
 --- !u!1 &828929715
@@ -808,6 +818,10 @@ MonoBehaviour:
   taskText: 'M 1 T 2 '
   destination: {fileID: 2035099121}
   active: 0
+<<<<<<< HEAD
+=======
+  Finished: 0
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   ID: 1
   UI: {fileID: 828929716}
 --- !u!33 &958877343
@@ -1163,6 +1177,10 @@ MonoBehaviour:
   taskText: 'M 3 T 1 '
   destination: {fileID: 31249558}
   active: 0
+<<<<<<< HEAD
+=======
+  Finished: 0
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   ID: 3
   UI: {fileID: 828929716}
 --- !u!33 &1103841657
@@ -1885,6 +1903,10 @@ MonoBehaviour:
   taskText: 'M 2 T 1 '
   destination: {fileID: 1176970320}
   active: 0
+<<<<<<< HEAD
+=======
+  Finished: 0
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   ID: 2
   UI: {fileID: 828929716}
 --- !u!33 &1724600406
@@ -2230,6 +2252,10 @@ MonoBehaviour:
   taskText: 'M 3 T 2 '
   destination: {fileID: 962149098}
   active: 0
+<<<<<<< HEAD
+=======
+  Finished: 0
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   ID: 4
   UI: {fileID: 828929716}
 --- !u!33 &2145990074
@@ -2497,6 +2523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f45be94e2156424f908c1466eab0064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   MoveSpeed: 0.1
   Gravity: -3
   Jump: 0
@@ -2504,6 +2531,9 @@ MonoBehaviour:
   LookSpeed: 25
   MaxYRotation: 40
   MyAnimator: {fileID: 2838400566129530056}
+=======
+  head: {fileID: 2838400565652121434}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
 --- !u!54 &2838400565652121446
 Rigidbody:
   m_ObjectHideFlags: 0

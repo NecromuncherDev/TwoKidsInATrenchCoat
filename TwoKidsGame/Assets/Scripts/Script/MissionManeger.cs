@@ -19,6 +19,10 @@ public class MissionManeger : MonoBehaviour
         {
             task.active = true;
             task.thisTaskFinished += TaskInMissionDone;
+<<<<<<< HEAD
+=======
+            task.OnThisTaskStarted();
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
         }
     }
 

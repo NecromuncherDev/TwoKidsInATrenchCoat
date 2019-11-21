@@ -759,7 +759,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f391cb8894d1a454c8479efc9a1fa8b1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1104,6 +1104,10 @@ MonoBehaviour:
   taskText: Talk to the skeltor
   destination: {fileID: 0}
   active: 0
+<<<<<<< HEAD
+=======
+  Finished: 0
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   ID: 0
   UI: {fileID: 1411624741}
 --- !u!114 &404357733
@@ -1118,6 +1122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 716a4bebbc5418c4bb1cadba7a65bc90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   script:
   - speaker: {fileID: 404357731}
     delay: 4
@@ -1127,6 +1132,27 @@ MonoBehaviour:
     delay: 4
     line: Have you got the money?
     speechBubbleType: 0
+=======
+  scriptBefore:
+  - speaker: {fileID: 0}
+    delay: 0
+    line: 
+    speechBubbleType: 0
+  - speaker: {fileID: 0}
+    delay: 0
+    line: 
+    speechBubbleType: 0
+  scriptWhile:
+  - speaker: {fileID: 404357731}
+    delay: 3
+    line: get ticket
+    speechBubbleType: 0
+  scriptAfter:
+  - speaker: {fileID: 404357731}
+    delay: 4
+    line: Good
+    speechBubbleType: 2
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   doRestartAtEnd: 1
   bubbleTimeToLive: 3
 --- !u!65 &404357734
@@ -1367,7 +1393,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: e1df654c2dd844146a8b08eff1d39218, type: 2}
+=======
+  - {fileID: 2100000, guid: 26c15ea7dd8423048bbb5513e0632cfe, type: 2}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1404,7 +1434,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516457557}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 7.93, y: 0.5, z: -7.12}
+=======
+  m_LocalPosition: {x: 9.01, y: 0.5, z: -7.79}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   m_LocalScale: {x: 2, y: 0.4, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3191,7 +3225,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f391cb8894d1a454c8479efc9a1fa8b1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4687,6 +4721,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 7456533341565972019, guid: 777ed6c28aede4e4eb840a2796b524fb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f391cb8894d1a454c8479efc9a1fa8b1, type: 2}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 777ed6c28aede4e4eb840a2796b524fb, type: 3}
 --- !u!1 &1240379709
@@ -4755,7 +4797,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f391cb8894d1a454c8479efc9a1fa8b1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5162,7 +5204,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: e1df654c2dd844146a8b08eff1d39218, type: 2}
+=======
+  - {fileID: 2100000, guid: 26c15ea7dd8423048bbb5513e0632cfe, type: 2}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5199,7 +5245,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426176451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 5.15, y: 0.5, z: -6.84}
+=======
+  m_LocalPosition: {x: 5.15, y: 0.5, z: -6.77}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   m_LocalScale: {x: 2, y: 0.4, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5359,7 +5409,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: e1df654c2dd844146a8b08eff1d39218, type: 2}
+=======
+  - {fileID: 2100000, guid: 26c15ea7dd8423048bbb5513e0632cfe, type: 2}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5841,7 +5895,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: b19917f4280b5574598bcded823740de, type: 2}
+=======
+  - {fileID: 2100000, guid: 80a7a3615ff5e3e4a8c1e9fe9a36d98a, type: 2}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5899,6 +5957,10 @@ MonoBehaviour:
   taskText: Bring the yellow to skeletor
   destination: {fileID: 1035829455}
   active: 0
+<<<<<<< HEAD
+=======
+  Finished: 0
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   ID: 1
   UI: {fileID: 1411624741}
 --- !u!54 &1890606685
@@ -5983,7 +6045,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 2357c68fef0929b409dcfcfe66ede073, type: 2}
+=======
+  - {fileID: 2100000, guid: cd6834016d395bc439a4e88059d21e2b, type: 2}
+>>>>>>> 0956567d6916818cd2a418fae97af2e830019878
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
